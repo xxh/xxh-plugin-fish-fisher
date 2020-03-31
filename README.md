@@ -22,3 +22,7 @@ xxh yourhost +s fish +if
 
 ## Install Fisher packages
 Please see the upstream Fisher documentation section titled, "[Getting started](https://github.com/jorgebucaran/fisher#getting-started)" for information on installing, updating and even creating your own packages.
+
+## Auto install of Fisher packages
+
+This plugin will automatically run Fisher if it finds a `fishfile` that is not empty and the `local` directory has not yet been created by Fisher. By default the `fishfile` is located at `~/.xxh/config/fish/fishfile` and the `local` directory is located at `~/.xxh/config/fisher/local`. Note that these locations will be different if you [set the host-home-xdg with ](https://github.com/xxh/xxh#how-to-set-homeuser-as-home-instead-of-homeuserxxh)`+hhx`. 
