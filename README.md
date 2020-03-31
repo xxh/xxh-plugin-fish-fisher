@@ -1,2 +1,24 @@
-# xxh-plugin-fish-fisher
-Fisher xxh-plugin
+# [Fisher](https://github.com/jorgebucaran/fisher) plugin for [xxh-shell-fish](https://github.com/xxh/xxh-shell-fish).
+
+## Fisher the package manager
+Fisher is a package manager for the fish shell. It defines a common interface for package authors to build and distribute shell scripts in a portable way.
+
+You can use it to extend your shell capabilities, change the look of your prompt and create repeatable configurations across different systems effortlessly.
+
+Repositories on Github are supported by default without a prefix, however with a prefix you can install fish packages from any git repository, even private ones.
+
+## Install
+Install from xxh repository:
+
+```bash
+xxh +I xxh-plugin-fish-fisher
+```
+
+Connect and install the Fisher plugin:
+
+```bash
+xxh yourhost +s fish +if
+```
+
+## Install Fisher packages
+Please see the upstream Fisher documentation section titled, "[Getting started](https://github.com/jorgebucaran/fisher#getting-started)" for information on installing, updating and even creating your own packages.
