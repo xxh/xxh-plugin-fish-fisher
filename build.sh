@@ -4,7 +4,13 @@
 PS4=':${LINENO}+'
 #set -x
 
-build_dir=build
+# Where is our plugin's base directory?
+CDIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Move to plugin directory.
+cd "$CDIR"
+
+build_dir=$CDIR/build
 
 while getopts q option
 do
