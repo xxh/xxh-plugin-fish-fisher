@@ -12,11 +12,13 @@ cd "$CDIR"
 
 build_dir=$CDIR/build
 
-while getopts q option
+while getopts A:K:q option
 do
   case "${option}"
   in
     q) QUIET=1;;
+    A) ARCH=${OPTARG};;
+    K) KERNEL=${OPTARG};;
   esac
 done
 
