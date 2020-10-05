@@ -1,4 +1,10 @@
-# [Fisher](https://github.com/jorgebucaran/fisher) plugin for [xxh-shell-fish](https://github.com/xxh/xxh-shell-fish).
+<p align="center">
+<a href="https://github.com/jorgebucaran/fisher">Fisher</a> plugin for <a href="https://github.com/xxh/xxh-shell-fish">xxh-shell-fish</a>
+</p>
+
+<p align="center">  
+If you like the idea click ⭐ on the repo and stay tuned.
+</p>
 
 ## Fisher the package manager
 Fisher is a package manager for the fish shell. It defines a common interface for package authors to build and distribute shell scripts in a portable way.
