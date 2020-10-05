@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/jorgebucaran/fisher">Fisher</a> plugin for <a href="https://github.com/xxh/xxh-shell-fish">xxh-shell-fish</a>
+<a href="https://github.com/jorgebucaran/fisher">Fisher</a> plugin for <a href="https://github.com/xxh/xxh-shell-fish">xxh-shell-fish</a>.
 </p>
 
 <p align="center">  
